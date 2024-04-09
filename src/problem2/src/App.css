@@ -1,0 +1,32 @@
+.App {
+  text-align: center;
+}
+
+.page {
+  height: 100%;
+  background-image: url(./bg.jpg);
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  box-shadow: 4px 4px 5px 0px rgba(0, 0, 0, 0.35);
+  -webkit-box-shadow: 4px 4px 5px 0px rgba(0, 0, 0, 0.35);
+  -moz-box-shadow: 4px 4px 5px 0px rgba(0, 0, 0, 0.35);
+}
+
+.sign-up-container {
+  margin-top: 80px;
+  width: 640px;
+}
+
+.submit-button {
+  border-width: 0;
+  background-color: #607d8b;
+}
+.submit-button:hover,
+.submit-button:active {
+  background-color: #546e7a !important;
+}
+.submit-button:disabled {
+  background-color: #78909c;
+}
